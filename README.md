@@ -59,6 +59,3 @@ Clearly, the highest accuracy for predicting product categories is obtained by t
 \
 The relative performance of each classification model can be visualised as follows:
 ![alt text](https://github.com/kvarun07/ecom-product-classifier/blob/main/assets/model_comparison.png)
-
-
-
