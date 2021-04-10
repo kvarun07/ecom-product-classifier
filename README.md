@@ -1,5 +1,5 @@
 # ecom-product-classifier
-This repository was submitted for [MIDAS IIIT-D](http://midas.iiitd.edu.in/) Summer Internship Recruitment 2021 Task-3 (NLP).
+This repository was submitted for [MIDAS IIIT-D](http://midas.iiitd.edu.in/) Summer Internship 2021 Recruitment Task-3 (NLP).
 
 [Varun Khurana](mailto:varun19124@iiitd.ac.in) \
 CSE, Indraprastha Institute of Information Technology, Delhi
