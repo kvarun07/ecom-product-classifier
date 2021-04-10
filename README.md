@@ -49,10 +49,10 @@ Here is the ***Confusion Matrix*** obtained for the NN model:
 ## Results
 | Classification Approach | Accuracy ( % ) |
 | :-: | :-: |
-| Naive Bayes | ? |
-| Logistic Regression | ? |
-| Support Vector Machine| ? |
-| **Neural Network** | ***?*** |
+| Naive Bayes | 81.31 |
+| Logistic Regression | 94.17 |
+| Support Vector Machine| 97.36 |
+| **Neural Network** | ***97.58*** |
 
 
 Clearly, the highest accuracy for predicting product categories is obtained by the ***Neural Network model***.
