@@ -1,16 +1,14 @@
 # ecom-product-classifier
-This repository was submitted for [MIDAS IIIT-D](http://midas.iiitd.edu.in/) Summer Internship 2021 Recruitment Task-3 (NLP).
-
-[Varun Khurana](mailto:varun19124@iiitd.ac.in) \
-CSE, Indraprastha Institute of Information Technology, Delhi
 
 ## Task
-We are given a dataset containing information about some products sold on an e-commerce site. Our task is to predict product categories by extracting features from the product descriptions. In essence, it is a classification problem.
+From a dataset containing information about some products sold on an e-commerce site, the task is to predict product categories by extracting features from the product descriptions. In essence, it is a **text classification** problem.
 
 ## Approach/Work Flow
 - Cleaning the data
-- Follow ***'Bag of Words'*** model: Count Vectorisation followed by computing Term Frequency-Inverse Document Frequency.
-- Different Classification algorithms tried to determine which one of them gave the highest accuracy when run on testing data.
+- Tokenisation: 
+  - Count Vectorisation 
+  - Term Frequency-Inverse Document Frequency (TF-IDF) Vectorisation
+- Different Classification algorithms are employed to determine which one of them yields the highest accuracy with testing data.
 
 ### Cleaning the data
 1. Removing punctuation
@@ -22,10 +20,10 @@ After these steps, most frequent product categories are identified. Entries havi
 The most common product categories can be visualised in the form of wordcloud as shown below:
 ![alt text](https://github.com/kvarun07/ecom-product-classifier/blob/main/assets/category_wordcloud.png)
 
-### Perform Count Vectorisation followed by Term-Frequency and Inverse Document Frequency (TF-IDF)
-- Here, our goal is to effectively extract features from the text product description so that a product category can be predicted.
-- We first obtain the sentence vectors by applying count vectorisation.
-- Thereafter, we compute the TF-IDF to get obtain weighted vectors such that more weight is given to particular words that form a distinguishing feature for a category.
+### Perform Tokenisation of Feature Set
+- Here, the goal is to effectively extract features from the text product description so that a product category can be predicted.
+- Firstly, the sentence vectors are obtained by applying count vectorisation.
+- Thereafter, we compute the TF-IDF weighted vectors such that more weight is given to particular words that form a distinguishing feature for a category.
 
 ### Applying different Classification Algorithms
 1. Naive Bayes Classifier
